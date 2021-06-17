@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://easystory-open.web.app")
+@CrossOrigin(origins = "https://easystory-85267.web.app")
 public class VersionController {
     @GetMapping("/version")
     public String getVersion() {
