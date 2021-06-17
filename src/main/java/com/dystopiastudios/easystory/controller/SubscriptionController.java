@@ -27,7 +27,7 @@ import java.util.stream.Collectors;
 @Tag(name = "subscriptions", description = "Subscriptions desc")
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://easystory-open.web.app")
+@CrossOrigin(origins = "https://easystory-85267.web.app")
 public class SubscriptionController {
 
     @Autowired
